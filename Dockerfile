@@ -1,6 +1,6 @@
 FROM node:16-bullseye-slim AS development
 
-WORKDIR /workspace
+WORKDIR /
 
 COPY package*.json ./
 
