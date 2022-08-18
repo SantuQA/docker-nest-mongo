@@ -27,8 +27,8 @@ $ npm start
 
 # DOCKER COMPOSE
 ```bash
-$ docker compose up dev                   //DEVELOPMENT
-$ docker compose up prod                  //PRODUCTION
+$ docker compose  -f "docker-compose.yml" up -d --build dev                   //DEVELOPMENT
+$ docker compose  -f "docker-compose.yml" up -d --build prod                  //PRODUCTION
 ```
 
 
